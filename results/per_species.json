@@ -18,7 +18,7 @@
     },
     {
       "scientific": "Artocarpus heterophyllus",
-      "common_en": null,
+      "common_en": "Jackfruit",
       "thai": "ขนุนมาเลเซีย",
       "n_images": 221,
       "crop": 0.6404532967032968,
@@ -66,7 +66,7 @@
     },
     {
       "scientific": "Dendrocalamus membranaceus",
-      "common_en": null,
+      "common_en": "White bamboo",
       "thai": "ไผ่ซางนวล",
       "n_images": 191,
       "crop": 0.7803030303030303,
@@ -74,7 +74,7 @@
     },
     {
       "scientific": "Hopea odorata",
-      "common_en": null,
+      "common_en": "White thingan",
       "thai": "ตะเคียน",
       "n_images": 143,
       "crop": 0.439469320066335,
@@ -154,7 +154,7 @@
     },
     {
       "scientific": "Terminalia calamansanai",
-      "common_en": null,
+      "common_en": "Philippine almond",
       "thai": "สกุณี",
       "n_images": 134,
       "crop": 0.5532155797101449,

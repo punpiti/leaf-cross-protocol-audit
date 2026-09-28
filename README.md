@@ -31,7 +31,9 @@ so the demo shows each step of the method but not a classification score.
 | `results/` | the aggregate result files behind the tables and figures of the article |
 
 The functions in `leafaudit/` are those used for the article, with the same
-parameters and order of operations.
+parameters and order of operations. This record was built from commit
+`e81e969` of the working repository, where the same package sits at
+`scripts/leafaudit/` and the result files at `labels-dataset2/`.
 
 Species in the result files are given by three names: the accepted scientific
 name, the English common name where one is in common use, and the Thai name
