@@ -1,164 +1,180 @@
 {
-  "main_n_images": {
-    "กระพี้เขาควาย": 182,
-    "ขนุนมาเลเซีย": 221,
-    "ขี้เหล็ก": 200,
-    "จามจุรี": 127,
-    "ชงโค": 122,
-    "ชมพูพันธุ์ทิพย์": 264,
-    "ตะเคียน": 143,
-    "ตะแบกนา": 126,
-    "ทองอุไร": 135,
-    "พะยอม": 116,
-    "พะยูง": 166,
-    "พิลังกาสา": 135,
-    "ยมหิน": 158,
-    "ราชพฤกษ์": 132,
-    "สกุณี": 134,
-    "สมอไทย": 122,
-    "สัก": 84,
-    "สีเสียดแก่น": 160,
-    "หูกระจง": 151,
-    "อินทนิลน้ำ": 135,
-    "เหลืองปรีดียาธร": 131,
-    "ไผ่ซางนวล": 191
-  },
-  "main_crop": {
-    "กระพี้เขาควาย": 0.8745098039215686,
-    "ขนุนมาเลเซีย": 0.6404532967032968,
-    "ขี้เหล็ก": 0.7526173772261198,
-    "จามจุรี": 0.9538461538461539,
-    "ชงโค": 0.9111959894962998,
-    "ชมพูพันธุ์ทิพย์": 0.7489497320005795,
-    "ตะเคียน": 0.439469320066335,
-    "ตะแบกนา": 0.7325544174135723,
-    "ทองอุไร": 0.9486359761295823,
-    "พะยอม": 0.8067796610169492,
-    "พะยูง": 0.9777777777777779,
-    "พิลังกาสา": 0.8203442879499218,
-    "ยมหิน": 0.8403169486972871,
-    "ราชพฤกษ์": 0.7716387273349299,
-    "สกุณี": 0.5532155797101449,
-    "สมอไทย": 0.5257092198581561,
-    "สัก": 0.44544544544544545,
-    "สีเสียดแก่น": 0.9759036144578312,
-    "หูกระจง": 0.7897467828974678,
-    "อินทนิลน้ำ": 0.48451563691838295,
-    "เหลืองปรีดียาธร": 0.7768259038768695,
-    "ไผ่ซางนวล": 0.7803030303030303
-  },
-  "main_crop_swap": {
-    "กระพี้เขาควาย": 0.8001330967169477,
-    "ขนุนมาเลเซีย": 0.5741792929292929,
-    "ขี้เหล็ก": 0.725610535737118,
-    "จามจุรี": 0.8741765480895916,
-    "ชงโค": 0.9375,
-    "ชมพูพันธุ์ทิพย์": 0.7542758422113447,
-    "ตะเคียน": 0.18575718575718575,
-    "ตะแบกนา": 0.6538726333907057,
-    "ทองอุไร": 0.9370713997579669,
-    "พะยอม": 0.6071947674418605,
-    "พะยูง": 0.9550561797752809,
-    "พิลังกาสา": 0.6741935483870968,
-    "ยมหิน": 0.8378066378066378,
-    "ราชพฤกษ์": 0.6035820895522388,
-    "สกุณี": 0.33333333333333337,
-    "สมอไทย": 0.6462962962962963,
-    "สัก": 0.41046658259773017,
-    "สีเสียดแก่น": 0.9645490640952921,
-    "หูกระจง": 0.7646376811594203,
-    "อินทนิลน้ำ": 0.2881147540983606,
-    "เหลืองปรีดียาธร": 0.799264705882353,
-    "ไผ่ซางนวล": 0.5916666666666667
-  },
-  "species_names": {
-    "กระพี้เขาควาย": {
-      "scientific": "Dalbergia cultrata",
-      "common_en": "Burmese blackwood"
-    },
-    "ขนุนมาเลเซีย": {
-      "scientific": "Artocarpus heterophyllus",
-      "common_en": null
-    },
-    "ขี้เหล็ก": {
-      "scientific": "Senna siamea",
-      "common_en": "Cassod tree"
-    },
-    "จามจุรี": {
-      "scientific": "Samanea saman",
-      "common_en": "Rain tree, Monkey pod"
-    },
-    "ชงโค": {
-      "scientific": "Bauhinia purpurea",
-      "common_en": "Purple orchid tree, Butterfly tree"
-    },
-    "ชมพูพันธุ์ทิพย์": {
-      "scientific": "Tabebuia rosea",
-      "common_en": "Pink trumpet tree"
-    },
-    "ตะเคียน": {
-      "scientific": "Hopea odorata",
-      "common_en": null
-    },
-    "ตะแบกนา": {
-      "scientific": "Lagerstroemia floribunda",
-      "common_en": "Kedah bungor, Thai crape myrtle"
-    },
-    "ทองอุไร": {
-      "scientific": "Tecoma stans",
-      "common_en": "Yellow bells, Yellow elder"
-    },
-    "พะยอม": {
+  "species": [
+    {
       "scientific": "Anthoshorea roxburghii",
-      "common_en": "White meranti"
+      "common_en": "White meranti",
+      "thai": "พะยอม",
+      "n_images": 116,
+      "crop": 0.8067796610169492,
+      "crop_swap": 0.6071947674418605
     },
-    "พะยูง": {
-      "scientific": "Dalbergia cochinchinensis",
-      "common_en": "Siamese rosewood"
-    },
-    "พิลังกาสา": {
+    {
       "scientific": "Ardisia polycephala",
-      "common_en": null
+      "common_en": null,
+      "thai": "พิลังกาสา",
+      "n_images": 135,
+      "crop": 0.8203442879499218,
+      "crop_swap": 0.6741935483870968
     },
-    "ยมหิน": {
-      "scientific": "Chukrasia tabularis",
-      "common_en": "Chittagong wood, Indian mahogany"
+    {
+      "scientific": "Artocarpus heterophyllus",
+      "common_en": null,
+      "thai": "ขนุนมาเลเซีย",
+      "n_images": 221,
+      "crop": 0.6404532967032968,
+      "crop_swap": 0.5741792929292929
     },
-    "ราชพฤกษ์": {
+    {
+      "scientific": "Bauhinia purpurea",
+      "common_en": "Purple orchid tree, Butterfly tree",
+      "thai": "ชงโค",
+      "n_images": 122,
+      "crop": 0.9111959894962998,
+      "crop_swap": 0.9375
+    },
+    {
       "scientific": "Cassia fistula",
-      "common_en": "Golden shower"
+      "common_en": "Golden shower",
+      "thai": "ราชพฤกษ์",
+      "n_images": 132,
+      "crop": 0.7716387273349299,
+      "crop_swap": 0.6035820895522388
     },
-    "สกุณี": {
-      "scientific": "Terminalia calamansanai",
-      "common_en": null
+    {
+      "scientific": "Chukrasia tabularis",
+      "common_en": "Chittagong wood, Indian mahogany",
+      "thai": "ยมหิน",
+      "n_images": 158,
+      "crop": 0.8403169486972871,
+      "crop_swap": 0.8378066378066378
     },
-    "สมอไทย": {
-      "scientific": "Terminalia chebula",
-      "common_en": "Chebulic myrobalan, Black myrobalan"
+    {
+      "scientific": "Dalbergia cochinchinensis",
+      "common_en": "Siamese rosewood",
+      "thai": "พะยูง",
+      "n_images": 166,
+      "crop": 0.9777777777777779,
+      "crop_swap": 0.9550561797752809
     },
-    "สัก": {
-      "scientific": "Tectona grandis",
-      "common_en": "Teak"
+    {
+      "scientific": "Dalbergia cultrata",
+      "common_en": "Burmese blackwood",
+      "thai": "กระพี้เขาควาย",
+      "n_images": 182,
+      "crop": 0.8745098039215686,
+      "crop_swap": 0.8001330967169477
     },
-    "สีเสียดแก่น": {
-      "scientific": "Senegalia catechu",
-      "common_en": "Black catechu, Cutch tree"
-    },
-    "หูกระจง": {
-      "scientific": "Terminalia ivorensis",
-      "common_en": "Ivory Coast almond, Idigbo"
-    },
-    "อินทนิลน้ำ": {
-      "scientific": "Lagerstroemia speciosa",
-      "common_en": "Queen's crape myrtle, Pride of India"
-    },
-    "เหลืองปรีดียาธร": {
-      "scientific": "Tabebuia aurea",
-      "common_en": "Caribbean trumpet tree, Silver trumpet tree"
-    },
-    "ไผ่ซางนวล": {
+    {
       "scientific": "Dendrocalamus membranaceus",
-      "common_en": null
+      "common_en": null,
+      "thai": "ไผ่ซางนวล",
+      "n_images": 191,
+      "crop": 0.7803030303030303,
+      "crop_swap": 0.5916666666666667
+    },
+    {
+      "scientific": "Hopea odorata",
+      "common_en": null,
+      "thai": "ตะเคียน",
+      "n_images": 143,
+      "crop": 0.439469320066335,
+      "crop_swap": 0.18575718575718575
+    },
+    {
+      "scientific": "Lagerstroemia floribunda",
+      "common_en": "Kedah bungor, Thai crape myrtle",
+      "thai": "ตะแบกนา",
+      "n_images": 126,
+      "crop": 0.7325544174135723,
+      "crop_swap": 0.6538726333907057
+    },
+    {
+      "scientific": "Lagerstroemia speciosa",
+      "common_en": "Queen's crape myrtle, Pride of India",
+      "thai": "อินทนิลน้ำ",
+      "n_images": 135,
+      "crop": 0.48451563691838295,
+      "crop_swap": 0.2881147540983606
+    },
+    {
+      "scientific": "Samanea saman",
+      "common_en": "Rain tree, Monkey pod",
+      "thai": "จามจุรี",
+      "n_images": 127,
+      "crop": 0.9538461538461539,
+      "crop_swap": 0.8741765480895916
+    },
+    {
+      "scientific": "Senegalia catechu",
+      "common_en": "Black catechu, Cutch tree",
+      "thai": "สีเสียดแก่น",
+      "n_images": 160,
+      "crop": 0.9759036144578312,
+      "crop_swap": 0.9645490640952921
+    },
+    {
+      "scientific": "Senna siamea",
+      "common_en": "Cassod tree",
+      "thai": "ขี้เหล็ก",
+      "n_images": 200,
+      "crop": 0.7526173772261198,
+      "crop_swap": 0.725610535737118
+    },
+    {
+      "scientific": "Tabebuia aurea",
+      "common_en": "Caribbean trumpet tree, Silver trumpet tree",
+      "thai": "เหลืองปรีดียาธร",
+      "n_images": 131,
+      "crop": 0.7768259038768695,
+      "crop_swap": 0.799264705882353
+    },
+    {
+      "scientific": "Tabebuia rosea",
+      "common_en": "Pink trumpet tree",
+      "thai": "ชมพูพันธุ์ทิพย์",
+      "n_images": 264,
+      "crop": 0.7489497320005795,
+      "crop_swap": 0.7542758422113447
+    },
+    {
+      "scientific": "Tecoma stans",
+      "common_en": "Yellow bells, Yellow elder",
+      "thai": "ทองอุไร",
+      "n_images": 135,
+      "crop": 0.9486359761295823,
+      "crop_swap": 0.9370713997579669
+    },
+    {
+      "scientific": "Tectona grandis",
+      "common_en": "Teak",
+      "thai": "สัก",
+      "n_images": 84,
+      "crop": 0.44544544544544545,
+      "crop_swap": 0.41046658259773017
+    },
+    {
+      "scientific": "Terminalia calamansanai",
+      "common_en": null,
+      "thai": "สกุณี",
+      "n_images": 134,
+      "crop": 0.5532155797101449,
+      "crop_swap": 0.33333333333333337
+    },
+    {
+      "scientific": "Terminalia chebula",
+      "common_en": "Chebulic myrobalan, Black myrobalan",
+      "thai": "สมอไทย",
+      "n_images": 122,
+      "crop": 0.5257092198581561,
+      "crop_swap": 0.6462962962962963
+    },
+    {
+      "scientific": "Terminalia ivorensis",
+      "common_en": "Ivory Coast almond, Idigbo",
+      "thai": "หูกระจง",
+      "n_images": 151,
+      "crop": 0.7897467828974678,
+      "crop_swap": 0.7646376811594203
     }
-  }
+  ]
 }

@@ -3,8 +3,16 @@
   "n_kept": 3334,
   "n_classes": 22,
   "dropped_single_camera": [
-    "ประดู่ป่า",
-    "ยางนา"
+    {
+      "scientific": "Pterocarpus macrocarpus",
+      "common_en": "Burmese rosewood",
+      "thai": "ประดู่ป่า"
+    },
+    {
+      "scientific": "Dipterocarpus alatus",
+      "common_en": "Yang",
+      "thai": "ยางนา"
+    }
   ],
   "patch_frac": 0.15,
   "mean_corners": 3.3648414985590778,
@@ -53,16 +61,6 @@
       "n_pred_classes": 12,
       "pred_max_share": 0.42674418604651165,
       "n_units": 860
-    }
-  },
-  "species_names": {
-    "ประดู่ป่า": {
-      "scientific": "Pterocarpus macrocarpus",
-      "common_en": "Burmese rosewood"
-    },
-    "ยางนา": {
-      "scientific": "Dipterocarpus alatus",
-      "common_en": "Yang"
     }
   }
 }

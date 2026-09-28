@@ -2,23 +2,91 @@
   "name": "P3can_geom",
   "aug": "geom",
   "classes": [
-    "กระพี้เขาควาย",
-    "ขี้เหล็ก",
-    "ชมพูพันธุ์ทิพย์",
-    "ทรงบาดาล",
-    "ทองอุไร",
-    "ประดู่ป่า",
-    "พะยอม",
-    "พะยูง",
-    "พิลังกาสา",
-    "มะเกลือ",
-    "ยมหิน",
-    "ยางนา",
-    "ราชพฤกษ์",
-    "สาธร",
-    "หูกระจง",
-    "อินทนิลน้ำ",
-    "เหลืองปรีดียาธร"
+    {
+      "scientific": "Dalbergia cultrata",
+      "common_en": "Burmese blackwood",
+      "thai": "กระพี้เขาควาย"
+    },
+    {
+      "scientific": "Senna siamea",
+      "common_en": "Cassod tree",
+      "thai": "ขี้เหล็ก"
+    },
+    {
+      "scientific": "Tabebuia rosea",
+      "common_en": "Pink trumpet tree",
+      "thai": "ชมพูพันธุ์ทิพย์"
+    },
+    {
+      "scientific": "Senna surattensis",
+      "common_en": "Scrambled egg tree, Glaucous cassia",
+      "thai": "ทรงบาดาล"
+    },
+    {
+      "scientific": "Tecoma stans",
+      "common_en": "Yellow bells, Yellow elder",
+      "thai": "ทองอุไร"
+    },
+    {
+      "scientific": "Pterocarpus macrocarpus",
+      "common_en": "Burmese rosewood",
+      "thai": "ประดู่ป่า"
+    },
+    {
+      "scientific": "Anthoshorea roxburghii",
+      "common_en": "White meranti",
+      "thai": "พะยอม"
+    },
+    {
+      "scientific": "Dalbergia cochinchinensis",
+      "common_en": "Siamese rosewood",
+      "thai": "พะยูง"
+    },
+    {
+      "scientific": "Ardisia polycephala",
+      "common_en": null,
+      "thai": "พิลังกาสา"
+    },
+    {
+      "scientific": "Diospyros mollis",
+      "common_en": "Ebony",
+      "thai": "มะเกลือ"
+    },
+    {
+      "scientific": "Chukrasia tabularis",
+      "common_en": "Chittagong wood, Indian mahogany",
+      "thai": "ยมหิน"
+    },
+    {
+      "scientific": "Dipterocarpus alatus",
+      "common_en": "Yang",
+      "thai": "ยางนา"
+    },
+    {
+      "scientific": "Cassia fistula",
+      "common_en": "Golden shower",
+      "thai": "ราชพฤกษ์"
+    },
+    {
+      "scientific": "Imbralyx leucanthus var. buteoides",
+      "common_en": null,
+      "thai": "สาธร"
+    },
+    {
+      "scientific": "Terminalia ivorensis",
+      "common_en": "Ivory Coast almond, Idigbo",
+      "thai": "หูกระจง"
+    },
+    {
+      "scientific": "Lagerstroemia speciosa",
+      "common_en": "Queen's crape myrtle, Pride of India",
+      "thai": "อินทนิลน้ำ"
+    },
+    {
+      "scientific": "Tabebuia aurea",
+      "common_en": "Caribbean trumpet tree, Silver trumpet tree",
+      "thai": "เหลืองปรีดียาธร"
+    }
   ],
   "n_train": 880,
   "n_val": 237,
@@ -150,75 +218,5 @@
   "full_at_best": {
     "L2_phone": 0.7048758525032632,
     "L3_P1": 0.2067609080057603
-  },
-  "species_names": {
-    "กระพี้เขาควาย": {
-      "scientific": "Dalbergia cultrata",
-      "common_en": "Burmese blackwood"
-    },
-    "ขี้เหล็ก": {
-      "scientific": "Senna siamea",
-      "common_en": "Cassod tree"
-    },
-    "ชมพูพันธุ์ทิพย์": {
-      "scientific": "Tabebuia rosea",
-      "common_en": "Pink trumpet tree"
-    },
-    "ทรงบาดาล": {
-      "scientific": "Senna surattensis",
-      "common_en": "Scrambled egg tree, Glaucous cassia"
-    },
-    "ทองอุไร": {
-      "scientific": "Tecoma stans",
-      "common_en": "Yellow bells, Yellow elder"
-    },
-    "ประดู่ป่า": {
-      "scientific": "Pterocarpus macrocarpus",
-      "common_en": "Burmese rosewood"
-    },
-    "พะยอม": {
-      "scientific": "Anthoshorea roxburghii",
-      "common_en": "White meranti"
-    },
-    "พะยูง": {
-      "scientific": "Dalbergia cochinchinensis",
-      "common_en": "Siamese rosewood"
-    },
-    "พิลังกาสา": {
-      "scientific": "Ardisia polycephala",
-      "common_en": null
-    },
-    "มะเกลือ": {
-      "scientific": "Diospyros mollis",
-      "common_en": "Ebony"
-    },
-    "ยมหิน": {
-      "scientific": "Chukrasia tabularis",
-      "common_en": "Chittagong wood, Indian mahogany"
-    },
-    "ยางนา": {
-      "scientific": "Dipterocarpus alatus",
-      "common_en": "Yang"
-    },
-    "ราชพฤกษ์": {
-      "scientific": "Cassia fistula",
-      "common_en": "Golden shower"
-    },
-    "สาธร": {
-      "scientific": "Imbralyx leucanthus var. buteoides",
-      "common_en": null
-    },
-    "หูกระจง": {
-      "scientific": "Terminalia ivorensis",
-      "common_en": "Ivory Coast almond, Idigbo"
-    },
-    "อินทนิลน้ำ": {
-      "scientific": "Lagerstroemia speciosa",
-      "common_en": "Queen's crape myrtle, Pride of India"
-    },
-    "เหลืองปรีดียาธร": {
-      "scientific": "Tabebuia aurea",
-      "common_en": "Caribbean trumpet tree, Silver trumpet tree"
-    }
   }
 }

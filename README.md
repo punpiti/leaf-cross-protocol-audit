@@ -33,10 +33,9 @@ so the demo shows each step of the method but not a classification score.
 The functions in `leafaudit/` are those used for the article, with the same
 parameters and order of operations.
 
-Species in the result files are keyed by their Thai names, as recorded when the
-plants were collected. Each file that names species has a `species_names` block
-giving the accepted scientific name and, where one is in common use, the English
-common name.
+Species in the result files are given by three names: the accepted scientific
+name, the English common name where one is in common use, and the Thai name
+recorded when the plants were collected.
 
 ## What the demo prints
 
