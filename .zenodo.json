@@ -1,0 +1,37 @@
+{
+  "upload_type": "software",
+  "title": "Leaf-image species classification audit: code",
+  "description": "Code for the article \"Within-protocol accuracy does not transfer: an intervention-based audit of leaf-image species classification in tropical tree seedlings\": leaf segmentation, the input-condition interventions, frozen ResNet-18 features, the corner condition, the grouped split and the evaluation with its empirical null and group bootstrap, with a demonstration on twelve example images. Code under the MIT License.",
+  "creators": [
+    {
+      "name": "Piamsa-nga, Napaporn",
+      "affiliation": "Department of Water Resources Engineering, Kasetsart University, Bangkok, Thailand"
+    },
+    {
+      "name": "Apichanapong, Noranand",
+      "affiliation": "Department of Computer Engineering, Kasetsart University, Bangkok, Thailand"
+    },
+    {
+      "name": "Phisanbut, Nalina",
+      "affiliation": "Department of Computer Engineering, Kasetsart University, Bangkok, Thailand"
+    },
+    {
+      "name": "Piamsa-nga, Phantat",
+      "affiliation": "Department of Mechanical Engineering, Kasetsart University, Bangkok, Thailand"
+    },
+    {
+      "name": "Piamsa-nga, Punpiti",
+      "affiliation": "Department of Computer Engineering, Kasetsart University, Bangkok, Thailand"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "species identification",
+    "shortcut learning",
+    "evaluation validity",
+    "domain shift",
+    "leaf morphology",
+    "tree seedlings"
+  ]
+}

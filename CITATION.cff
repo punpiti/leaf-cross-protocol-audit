@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article and this record."
+title: "Leaf-image species classification audit: code"
+type: software
+license: MIT
+authors:
+  - family-names: "Piamsa-nga"
+    given-names: "Napaporn"
+    affiliation: "Department of Water Resources Engineering, Kasetsart University, Bangkok, Thailand"
+  - family-names: "Apichanapong"
+    given-names: "Noranand"
+    affiliation: "Department of Computer Engineering, Kasetsart University, Bangkok, Thailand"
+  - family-names: "Phisanbut"
+    given-names: "Nalina"
+    affiliation: "Department of Computer Engineering, Kasetsart University, Bangkok, Thailand"
+  - family-names: "Piamsa-nga"
+    given-names: "Phantat"
+    affiliation: "Department of Mechanical Engineering, Kasetsart University, Bangkok, Thailand"
+  - family-names: "Piamsa-nga"
+    given-names: "Punpiti"
+    affiliation: "Department of Computer Engineering, Kasetsart University, Bangkok, Thailand"
+keywords:
+  - species identification
+  - shortcut learning
+  - evaluation validity
+  - domain shift
+  - leaf morphology
+  - tree seedlings
