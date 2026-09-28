@@ -1,0 +1,256 @@
+{
+  "name": "P3can_swap",
+  "aug": "swap",
+  "classes": [
+    "กระพี้เขาควาย",
+    "ขี้เหล็ก",
+    "ชมพูพันธุ์ทิพย์",
+    "ทรงบาดาล",
+    "ทองอุไร",
+    "ประดู่ป่า",
+    "พะยอม",
+    "พะยูง",
+    "พิลังกาสา",
+    "มะเกลือ",
+    "ยมหิน",
+    "ยางนา",
+    "ราชพฤกษ์",
+    "สาธร",
+    "หูกระจง",
+    "อินทนิลน้ำ",
+    "เหลืองปรีดียาธร"
+  ],
+  "n_train": 880,
+  "n_val": 237,
+  "budget": {
+    "epochs": 30,
+    "lr": 0.0001,
+    "batch": 32,
+    "patience": 5,
+    "backbone": "resnet18",
+    "size": 224,
+    "eval_subset": 800
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 1.8917285225608131,
+      "val": 0.7351799173294407,
+      "L2_phone": 0.5681321013253786,
+      "L3_P1": 0.11876043095088776,
+      "seconds": 60.7
+    },
+    {
+      "epoch": 2,
+      "loss": 0.7897173166275024,
+      "val": 0.9058200329982087,
+      "L2_phone": 0.6659131163542253,
+      "L3_P1": 0.2445351633975223,
+      "seconds": 61.3
+    },
+    {
+      "epoch": 3,
+      "loss": 0.40692923231558364,
+      "val": 0.9193437255334156,
+      "L2_phone": 0.6239998948933789,
+      "L3_P1": 0.17391949569989407,
+      "seconds": 61.6
+    },
+    {
+      "epoch": 4,
+      "loss": 0.25136431455612185,
+      "val": 0.931710372353054,
+      "L2_phone": 0.7184965116709476,
+      "L3_P1": 0.2185572578235929,
+      "seconds": 59.9
+    },
+    {
+      "epoch": 5,
+      "loss": 0.18119676140221683,
+      "val": 0.9419070509065566,
+      "L2_phone": 0.7411713527417677,
+      "L3_P1": 0.212065488344552,
+      "seconds": 60.5
+    },
+    {
+      "epoch": 6,
+      "loss": 0.1455616228959777,
+      "val": 0.9359741894555739,
+      "L2_phone": 0.6965229207673121,
+      "L3_P1": 0.21163282232980732,
+      "seconds": 61.4
+    },
+    {
+      "epoch": 7,
+      "loss": 0.11143576936288313,
+      "val": 0.9470352881882412,
+      "L2_phone": 0.7099232828411774,
+      "L3_P1": 0.2709202480338173,
+      "seconds": 58.1
+    },
+    {
+      "epoch": 8,
+      "loss": 0.07820492088794709,
+      "val": 0.9475516491305965,
+      "L2_phone": 0.7198283824426145,
+      "L3_P1": 0.21311255964021097,
+      "seconds": 58.6
+    },
+    {
+      "epoch": 9,
+      "loss": 0.07268690284002911,
+      "val": 0.9441719217733765,
+      "L2_phone": 0.6941287550689893,
+      "L3_P1": 0.2042883763947834,
+      "seconds": 62.8
+    },
+    {
+      "epoch": 10,
+      "loss": 0.1298559979281642,
+      "val": 0.9203538058610523,
+      "L2_phone": 0.6918256206941731,
+      "L3_P1": 0.22046984193795918,
+      "seconds": 60.8
+    },
+    {
+      "epoch": 11,
+      "loss": 0.0898318502036008,
+      "val": 0.942005502005502,
+      "L2_phone": 0.7085178036502942,
+      "L3_P1": 0.17258670568406345,
+      "seconds": 58.6
+    },
+    {
+      "epoch": 12,
+      "loss": 0.0647740020670674,
+      "val": 0.9306778361862676,
+      "L2_phone": 0.7046529170406313,
+      "L3_P1": 0.17816049542106385,
+      "seconds": 58.0
+    },
+    {
+      "epoch": 13,
+      "loss": 0.04933417710390958,
+      "val": 0.9752962155390122,
+      "L2_phone": 0.7003787994438616,
+      "L3_P1": 0.17630897845892843,
+      "seconds": 60.4
+    },
+    {
+      "epoch": 14,
+      "loss": 0.048509542508558795,
+      "val": 0.947125973262943,
+      "L2_phone": 0.6824407096621867,
+      "L3_P1": 0.1923313800083852,
+      "seconds": 62.2
+    },
+    {
+      "epoch": 15,
+      "loss": 0.04760473099621859,
+      "val": 0.9422384304417328,
+      "L2_phone": 0.6756395552549463,
+      "L3_P1": 0.17912633364873431,
+      "seconds": 62.3
+    },
+    {
+      "epoch": 16,
+      "loss": 0.042927725917913696,
+      "val": 0.9578215970137656,
+      "L2_phone": 0.698063987490852,
+      "L3_P1": 0.15398177129948176,
+      "seconds": 62.3
+    },
+    {
+      "epoch": 17,
+      "loss": 0.04129247841509906,
+      "val": 0.938324398577659,
+      "L2_phone": 0.6597961973117922,
+      "L3_P1": 0.18149558194601081,
+      "seconds": 63.1
+    },
+    {
+      "epoch": 18,
+      "loss": 0.0379290378398516,
+      "val": 0.9480416270886053,
+      "L2_phone": 0.6767229013060297,
+      "L3_P1": 0.14091847467608645,
+      "seconds": 61.6
+    }
+  ],
+  "best_epoch": 13,
+  "best_val": 0.9752962155390122,
+  "full_at_best": {
+    "L2_phone": 0.7003787994438616,
+    "L3_P1": 0.17777732921266282
+  },
+  "species_names": {
+    "กระพี้เขาควาย": {
+      "scientific": "Dalbergia cultrata",
+      "common_en": "Burmese blackwood"
+    },
+    "ขี้เหล็ก": {
+      "scientific": "Senna siamea",
+      "common_en": "Cassod tree"
+    },
+    "ชมพูพันธุ์ทิพย์": {
+      "scientific": "Tabebuia rosea",
+      "common_en": "Pink trumpet tree"
+    },
+    "ทรงบาดาล": {
+      "scientific": "Senna surattensis",
+      "common_en": "Scrambled egg tree, Glaucous cassia"
+    },
+    "ทองอุไร": {
+      "scientific": "Tecoma stans",
+      "common_en": "Yellow bells, Yellow elder"
+    },
+    "ประดู่ป่า": {
+      "scientific": "Pterocarpus macrocarpus",
+      "common_en": "Burmese rosewood"
+    },
+    "พะยอม": {
+      "scientific": "Anthoshorea roxburghii",
+      "common_en": "White meranti"
+    },
+    "พะยูง": {
+      "scientific": "Dalbergia cochinchinensis",
+      "common_en": "Siamese rosewood"
+    },
+    "พิลังกาสา": {
+      "scientific": "Ardisia polycephala",
+      "common_en": null
+    },
+    "มะเกลือ": {
+      "scientific": "Diospyros mollis",
+      "common_en": "Ebony"
+    },
+    "ยมหิน": {
+      "scientific": "Chukrasia tabularis",
+      "common_en": "Chittagong wood, Indian mahogany"
+    },
+    "ยางนา": {
+      "scientific": "Dipterocarpus alatus",
+      "common_en": "Yang"
+    },
+    "ราชพฤกษ์": {
+      "scientific": "Cassia fistula",
+      "common_en": "Golden shower"
+    },
+    "สาธร": {
+      "scientific": "Imbralyx leucanthus var. buteoides",
+      "common_en": null
+    },
+    "หูกระจง": {
+      "scientific": "Terminalia ivorensis",
+      "common_en": "Ivory Coast almond, Idigbo"
+    },
+    "อินทนิลน้ำ": {
+      "scientific": "Lagerstroemia speciosa",
+      "common_en": "Queen's crape myrtle, Pride of India"
+    },
+    "เหลืองปรีดียาธร": {
+      "scientific": "Tabebuia aurea",
+      "common_en": "Caribbean trumpet tree, Silver trumpet tree"
+    }
+  }
+}

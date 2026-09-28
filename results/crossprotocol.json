@@ -1,0 +1,469 @@
+{
+  "n_classes": 17,
+  "classes": [
+    "กระพี้เขาควาย",
+    "ขี้เหล็ก",
+    "ชมพูพันธุ์ทิพย์",
+    "ทรงบาดาล",
+    "ทองอุไร",
+    "ประดู่ป่า",
+    "พะยอม",
+    "พะยูง",
+    "พิลังกาสา",
+    "มะเกลือ",
+    "ยมหิน",
+    "ยางนา",
+    "ราชพฤกษ์",
+    "สาธร",
+    "หูกระจง",
+    "อินทนิลน้ำ",
+    "เหลืองปรีดียาธร"
+  ],
+  "chance": 0.058823529411764705,
+  "n_d1": 3110,
+  "n_d2": 2924,
+  "result": {
+    "crop": {
+      "level 2  P3 within (both cameras pooled)": {
+        "macro_f1_unit": 0.9652450647911441,
+        "macro_f1_image": 0.9279495750738223,
+        "ci_lo": 0.9511696539182438,
+        "ci_hi": 0.9765359010286931,
+        "null_mean": 0.05894792165592557,
+        "null_hi": 0.07116924109746904,
+        "null_p": 0.0,
+        "n_pred_classes": 17,
+        "pred_max_share": 0.36105336105336105,
+        "n_labels": 17,
+        "n_folds": 5,
+        "n_train": 0,
+        "n_test_images": 2924,
+        "n_test_units": 1443
+      },
+      "level 2  P3 canon -> P3 phone": {
+        "macro_f1_image": 0.8473763869733176,
+        "macro_f1_unit": 0.8745230118050106,
+        "ci_lo": 0.8504071151406603,
+        "ci_hi": 0.8966625251890504,
+        "null_mean": 0.06640921275948604,
+        "null_hi": 0.08337711946312915,
+        "null_p": 0.0,
+        "n_pred_classes": 15,
+        "pred_max_share": 0.26256983240223464,
+        "n_labels": 15,
+        "n_train": 1441,
+        "n_test_images": 1345,
+        "n_test_units": 895
+      },
+      "level 2  P3 phone -> P3 canon": {
+        "macro_f1_image": 0.8300893394627852,
+        "macro_f1_unit": 0.8787764093588908,
+        "ci_lo": 0.8536519176689374,
+        "ci_hi": 0.899465966683177,
+        "null_mean": 0.06572532406315935,
+        "null_hi": 0.08201260677449447,
+        "null_p": 0.0,
+        "n_pred_classes": 15,
+        "pred_max_share": 0.31573498964803315,
+        "n_labels": 15,
+        "n_train": 1345,
+        "n_test_images": 1441,
+        "n_test_units": 966
+      },
+      "level 3  P1 -> P3": {
+        "macro_f1_image": 0.035088092699273085,
+        "macro_f1_unit": 0.021289389854470108,
+        "ci_lo": 0.013683973016776334,
+        "ci_hi": 0.029583594159141552,
+        "null_mean": 0.01704603730738705,
+        "null_hi": 0.02521846567978417,
+        "null_p": 0.1325,
+        "n_pred_classes": 10,
+        "pred_max_share": 0.7449757449757449,
+        "n_labels": 17,
+        "n_train": 3110,
+        "n_test_images": 2924,
+        "n_test_units": 1443
+      },
+      "level 3  P3 -> P1": {
+        "macro_f1_image": 0.17355938491224304,
+        "macro_f1_unit": 0.17355938491224304,
+        "ci_lo": 0.16249286571784985,
+        "ci_hi": 0.18472172304762707,
+        "null_mean": 0.028548641532158206,
+        "null_hi": 0.034058783884487666,
+        "null_p": 0.0,
+        "n_pred_classes": 13,
+        "pred_max_share": 0.4067524115755627,
+        "n_labels": 17,
+        "n_train": 2924,
+        "n_test_images": 3110,
+        "n_test_units": 3110
+      },
+      "level 3  P3 canon -> P1 (15 species)": {
+        "macro_f1_image": 0.21398754503041467,
+        "macro_f1_unit": 0.21398754503041467,
+        "ci_lo": 0.20205605279928773,
+        "ci_hi": 0.22550881964007058,
+        "null_mean": 0.03520738812044884,
+        "null_hi": 0.041093478982672835,
+        "null_p": 0.0,
+        "n_pred_classes": 12,
+        "pred_max_share": 0.3406474820143885,
+        "n_labels": 15,
+        "n_train": 1441,
+        "n_test_images": 2780,
+        "n_test_units": 2780
+      }
+    },
+    "crop_swap": {
+      "level 2  P3 within (both cameras pooled)": {
+        "macro_f1_unit": 0.9149581749487635,
+        "macro_f1_image": 0.8668951414643028,
+        "ci_lo": 0.8947258020147019,
+        "ci_hi": 0.9305673819061079,
+        "null_mean": 0.05881805475219281,
+        "null_hi": 0.07145745772623131,
+        "null_p": 0.0,
+        "n_pred_classes": 17,
+        "pred_max_share": 0.34996534996534995,
+        "n_labels": 17,
+        "n_folds": 5,
+        "n_train": 0,
+        "n_test_images": 2924,
+        "n_test_units": 1443
+      },
+      "level 2  P3 canon -> P3 phone": {
+        "macro_f1_image": 0.8042779765311304,
+        "macro_f1_unit": 0.8501348903833076,
+        "ci_lo": 0.8242627325694083,
+        "ci_hi": 0.873527566853139,
+        "null_mean": 0.06625569805336266,
+        "null_hi": 0.08339173322734643,
+        "null_p": 0.0,
+        "n_pred_classes": 15,
+        "pred_max_share": 0.25027932960893856,
+        "n_labels": 15,
+        "n_train": 1441,
+        "n_test_images": 1345,
+        "n_test_units": 895
+      },
+      "level 2  P3 phone -> P3 canon": {
+        "macro_f1_image": 0.7520528126404388,
+        "macro_f1_unit": 0.787241716439086,
+        "ci_lo": 0.7566804884380646,
+        "ci_hi": 0.8135389992808848,
+        "null_mean": 0.06490536813043764,
+        "null_hi": 0.08071630914989227,
+        "null_p": 0.0,
+        "n_pred_classes": 15,
+        "pred_max_share": 0.3333333333333333,
+        "n_labels": 15,
+        "n_train": 1345,
+        "n_test_images": 1441,
+        "n_test_units": 966
+      },
+      "level 3  P1 -> P3": {
+        "macro_f1_image": 0.22609454760460776,
+        "macro_f1_unit": 0.2198278534078208,
+        "ci_lo": 0.19976293903015066,
+        "ci_hi": 0.2379377349273715,
+        "null_mean": 0.03399952998198212,
+        "null_hi": 0.044262617408819975,
+        "null_p": 0.0,
+        "n_pred_classes": 16,
+        "pred_max_share": 0.1891891891891892,
+        "n_labels": 17,
+        "n_train": 3110,
+        "n_test_images": 2924,
+        "n_test_units": 1443
+      },
+      "level 3  P3 -> P1": {
+        "macro_f1_image": 0.28401443159933115,
+        "macro_f1_unit": 0.28401443159933115,
+        "ci_lo": 0.269526636809936,
+        "ci_hi": 0.2981742432567772,
+        "null_mean": 0.045099297500576244,
+        "null_hi": 0.05235152108695419,
+        "null_p": 0.0,
+        "n_pred_classes": 16,
+        "pred_max_share": 0.18456591639871384,
+        "n_labels": 17,
+        "n_train": 2924,
+        "n_test_images": 3110,
+        "n_test_units": 3110
+      },
+      "level 3  P3 canon -> P1 (15 species)": {
+        "macro_f1_image": 0.3739847911640345,
+        "macro_f1_unit": 0.3739847911640345,
+        "ci_lo": 0.3580173693721181,
+        "ci_hi": 0.38909558421186824,
+        "null_mean": 0.0526810719341596,
+        "null_hi": 0.06089711745284078,
+        "null_p": 0.0,
+        "n_pred_classes": 14,
+        "pred_max_share": 0.2068345323741007,
+        "n_labels": 15,
+        "n_train": 1441,
+        "n_test_images": 2780,
+        "n_test_units": 2780
+      }
+    },
+    "crop_leafout": {
+      "level 2  P3 within (both cameras pooled)": {
+        "macro_f1_unit": 0.9047733475938446,
+        "macro_f1_image": 0.8500094743500154,
+        "ci_lo": 0.884410768630177,
+        "ci_hi": 0.9225242420554062,
+        "null_mean": 0.05896283998383376,
+        "null_hi": 0.0715080844936096,
+        "null_p": 0.0,
+        "n_pred_classes": 17,
+        "pred_max_share": 0.3575883575883576,
+        "n_labels": 17,
+        "n_folds": 5,
+        "n_train": 0,
+        "n_test_images": 2924,
+        "n_test_units": 1443
+      },
+      "level 2  P3 canon -> P3 phone": {
+        "macro_f1_image": 0.4655798217251713,
+        "macro_f1_unit": 0.4724421558549327,
+        "ci_lo": 0.4367575708162453,
+        "ci_hi": 0.5026349394694136,
+        "null_mean": 0.054721462906412166,
+        "null_hi": 0.07060333568109294,
+        "null_p": 0.0,
+        "n_pred_classes": 15,
+        "pred_max_share": 0.264804469273743,
+        "n_labels": 15,
+        "n_train": 1441,
+        "n_test_images": 1345,
+        "n_test_units": 895
+      },
+      "level 2  P3 phone -> P3 canon": {
+        "macro_f1_image": 0.5246514004136074,
+        "macro_f1_unit": 0.570493188460815,
+        "ci_lo": 0.5351367416067679,
+        "ci_hi": 0.5999194223544044,
+        "null_mean": 0.06248132815925005,
+        "null_hi": 0.0778497450846808,
+        "null_p": 0.0,
+        "n_pred_classes": 15,
+        "pred_max_share": 0.4886128364389234,
+        "n_labels": 15,
+        "n_train": 1345,
+        "n_test_images": 1441,
+        "n_test_units": 966
+      },
+      "level 3  P1 -> P3": {
+        "macro_f1_image": 0.06506616008094644,
+        "macro_f1_unit": 0.05815323915222334,
+        "ci_lo": 0.04730413727413114,
+        "ci_hi": 0.06995936446700167,
+        "null_mean": 0.028430410684804532,
+        "null_hi": 0.036833600943974976,
+        "null_p": 0.0,
+        "n_pred_classes": 12,
+        "pred_max_share": 0.31323631323631324,
+        "n_labels": 17,
+        "n_train": 3110,
+        "n_test_images": 2924,
+        "n_test_units": 1443
+      },
+      "level 3  P3 -> P1": {
+        "macro_f1_image": 0.019132961161977144,
+        "macro_f1_unit": 0.019132961161977144,
+        "ci_lo": 0.013835662702593505,
+        "ci_hi": 0.0244868888597794,
+        "null_mean": 0.009036505977934756,
+        "null_hi": 0.012027084084464075,
+        "null_p": 0.0,
+        "n_pred_classes": 6,
+        "pred_max_share": 0.9623794212218649,
+        "n_labels": 17,
+        "n_train": 2924,
+        "n_test_images": 3110,
+        "n_test_units": 3110
+      },
+      "level 3  P3 canon -> P1 (15 species)": {
+        "macro_f1_image": 0.0455862915032931,
+        "macro_f1_unit": 0.0455862915032931,
+        "ci_lo": 0.03943216141931439,
+        "ci_hi": 0.051889758829475406,
+        "null_mean": 0.016160008526632033,
+        "null_hi": 0.01910888805903442,
+        "null_p": 0.0,
+        "n_pred_classes": 10,
+        "pred_max_share": 0.7384892086330935,
+        "n_labels": 15,
+        "n_train": 1441,
+        "n_test_images": 2780,
+        "n_test_units": 2780
+      }
+    },
+    "silhouette": {
+      "level 2  P3 within (both cameras pooled)": {
+        "macro_f1_unit": 0.6711399415203102,
+        "macro_f1_image": 0.6012306440280875,
+        "ci_lo": 0.6426374834879256,
+        "ci_hi": 0.6953135037363739,
+        "null_mean": 0.05789789787083303,
+        "null_hi": 0.06982947668748699,
+        "null_p": 0.0,
+        "n_pred_classes": 17,
+        "pred_max_share": 0.34234234234234234,
+        "n_labels": 17,
+        "n_folds": 5,
+        "n_train": 0,
+        "n_test_images": 2924,
+        "n_test_units": 1443
+      },
+      "level 2  P3 canon -> P3 phone": {
+        "macro_f1_image": 0.4810471067607013,
+        "macro_f1_unit": 0.5154285848721322,
+        "ci_lo": 0.4858891882152658,
+        "ci_hi": 0.5424349682556967,
+        "null_mean": 0.06378131298992998,
+        "null_hi": 0.08028138124772857,
+        "null_p": 0.0,
+        "n_pred_classes": 15,
+        "pred_max_share": 0.17430167597765364,
+        "n_labels": 15,
+        "n_train": 1441,
+        "n_test_images": 1345,
+        "n_test_units": 895
+      },
+      "level 2  P3 phone -> P3 canon": {
+        "macro_f1_image": 0.5205229148598473,
+        "macro_f1_unit": 0.5529963928154824,
+        "ci_lo": 0.524185464990847,
+        "ci_hi": 0.5779802920109943,
+        "null_mean": 0.06325321614894686,
+        "null_hi": 0.07878252426077711,
+        "null_p": 0.0,
+        "n_pred_classes": 15,
+        "pred_max_share": 0.32712215320910976,
+        "n_labels": 15,
+        "n_train": 1345,
+        "n_test_images": 1441,
+        "n_test_units": 966
+      },
+      "level 3  P1 -> P3": {
+        "macro_f1_image": 0.17609147467548628,
+        "macro_f1_unit": 0.178300988710826,
+        "ci_lo": 0.15662075700180064,
+        "ci_hi": 0.19769009266174947,
+        "null_mean": 0.034164364998175385,
+        "null_hi": 0.044673134063270364,
+        "null_p": 0.0,
+        "n_pred_classes": 17,
+        "pred_max_share": 0.3541233541233541,
+        "n_labels": 17,
+        "n_train": 3110,
+        "n_test_images": 2924,
+        "n_test_units": 1443
+      },
+      "level 3  P3 -> P1": {
+        "macro_f1_image": 0.2920240518023234,
+        "macro_f1_unit": 0.2920240518023234,
+        "ci_lo": 0.27799813086387243,
+        "ci_hi": 0.3047282957716962,
+        "null_mean": 0.04597879891802699,
+        "null_hi": 0.05332807692637416,
+        "null_p": 0.0,
+        "n_pred_classes": 16,
+        "pred_max_share": 0.2090032154340836,
+        "n_labels": 17,
+        "n_train": 2924,
+        "n_test_images": 3110,
+        "n_test_units": 3110
+      },
+      "level 3  P3 canon -> P1 (15 species)": {
+        "macro_f1_image": 0.3824330699093594,
+        "macro_f1_unit": 0.3824330699093594,
+        "ci_lo": 0.36636795387238413,
+        "ci_hi": 0.3975962183621428,
+        "null_mean": 0.05438883357168844,
+        "null_hi": 0.06208612114569841,
+        "null_p": 0.0,
+        "n_pred_classes": 14,
+        "pred_max_share": 0.1971223021582734,
+        "n_labels": 15,
+        "n_train": 1441,
+        "n_test_images": 2780,
+        "n_test_units": 2780
+      }
+    }
+  },
+  "species_names": {
+    "กระพี้เขาควาย": {
+      "scientific": "Dalbergia cultrata",
+      "common_en": "Burmese blackwood"
+    },
+    "ขี้เหล็ก": {
+      "scientific": "Senna siamea",
+      "common_en": "Cassod tree"
+    },
+    "ชมพูพันธุ์ทิพย์": {
+      "scientific": "Tabebuia rosea",
+      "common_en": "Pink trumpet tree"
+    },
+    "ทรงบาดาล": {
+      "scientific": "Senna surattensis",
+      "common_en": "Scrambled egg tree, Glaucous cassia"
+    },
+    "ทองอุไร": {
+      "scientific": "Tecoma stans",
+      "common_en": "Yellow bells, Yellow elder"
+    },
+    "ประดู่ป่า": {
+      "scientific": "Pterocarpus macrocarpus",
+      "common_en": "Burmese rosewood"
+    },
+    "พะยอม": {
+      "scientific": "Anthoshorea roxburghii",
+      "common_en": "White meranti"
+    },
+    "พะยูง": {
+      "scientific": "Dalbergia cochinchinensis",
+      "common_en": "Siamese rosewood"
+    },
+    "พิลังกาสา": {
+      "scientific": "Ardisia polycephala",
+      "common_en": null
+    },
+    "มะเกลือ": {
+      "scientific": "Diospyros mollis",
+      "common_en": "Ebony"
+    },
+    "ยมหิน": {
+      "scientific": "Chukrasia tabularis",
+      "common_en": "Chittagong wood, Indian mahogany"
+    },
+    "ยางนา": {
+      "scientific": "Dipterocarpus alatus",
+      "common_en": "Yang"
+    },
+    "ราชพฤกษ์": {
+      "scientific": "Cassia fistula",
+      "common_en": "Golden shower"
+    },
+    "สาธร": {
+      "scientific": "Imbralyx leucanthus var. buteoides",
+      "common_en": null
+    },
+    "หูกระจง": {
+      "scientific": "Terminalia ivorensis",
+      "common_en": "Ivory Coast almond, Idigbo"
+    },
+    "อินทนิลน้ำ": {
+      "scientific": "Lagerstroemia speciosa",
+      "common_en": "Queen's crape myrtle, Pride of India"
+    },
+    "เหลืองปรีดียาธร": {
+      "scientific": "Tabebuia aurea",
+      "common_en": "Caribbean trumpet tree, Silver trumpet tree"
+    }
+  }
+}

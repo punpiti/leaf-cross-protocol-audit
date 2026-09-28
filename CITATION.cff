@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite the article and this record."
+message: "If you use this code or these results, please cite the article and this record."
 title: "Leaf-image species classification audit: code"
 type: software
 license: MIT

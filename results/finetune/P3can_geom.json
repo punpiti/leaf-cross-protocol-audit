@@ -1,0 +1,224 @@
+{
+  "name": "P3can_geom",
+  "aug": "geom",
+  "classes": [
+    "กระพี้เขาควาย",
+    "ขี้เหล็ก",
+    "ชมพูพันธุ์ทิพย์",
+    "ทรงบาดาล",
+    "ทองอุไร",
+    "ประดู่ป่า",
+    "พะยอม",
+    "พะยูง",
+    "พิลังกาสา",
+    "มะเกลือ",
+    "ยมหิน",
+    "ยางนา",
+    "ราชพฤกษ์",
+    "สาธร",
+    "หูกระจง",
+    "อินทนิลน้ำ",
+    "เหลืองปรีดียาธร"
+  ],
+  "n_train": 880,
+  "n_val": 237,
+  "budget": {
+    "epochs": 30,
+    "lr": 0.0001,
+    "batch": 32,
+    "patience": 5,
+    "backbone": "resnet18",
+    "size": 224,
+    "eval_subset": 800
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 1.6082351099361072,
+      "val": 0.8299458844620136,
+      "L2_phone": 0.6032693238196671,
+      "L3_P1": 0.12618373949418332,
+      "seconds": 59.0
+    },
+    {
+      "epoch": 2,
+      "loss": 0.5100370201197537,
+      "val": 0.9083850820564601,
+      "L2_phone": 0.6805078954090096,
+      "L3_P1": 0.26755971227487435,
+      "seconds": 66.2
+    },
+    {
+      "epoch": 3,
+      "loss": 0.23508933999321677,
+      "val": 0.9483200281577234,
+      "L2_phone": 0.6926519071576172,
+      "L3_P1": 0.23072607080101518,
+      "seconds": 62.3
+    },
+    {
+      "epoch": 4,
+      "loss": 0.1389502691951665,
+      "val": 0.9172306001536576,
+      "L2_phone": 0.6853859205072059,
+      "L3_P1": 0.25096732733831534,
+      "seconds": 58.6
+    },
+    {
+      "epoch": 5,
+      "loss": 0.0905961894176223,
+      "val": 0.9476820683124721,
+      "L2_phone": 0.6859425629212217,
+      "L3_P1": 0.18690606163354664,
+      "seconds": 56.1
+    },
+    {
+      "epoch": 6,
+      "loss": 0.05215784372253852,
+      "val": 0.9519683402920267,
+      "L2_phone": 0.7022704563798067,
+      "L3_P1": 0.23382814276745023,
+      "seconds": 56.6
+    },
+    {
+      "epoch": 7,
+      "loss": 0.048190981352871115,
+      "val": 0.9568752206759054,
+      "L2_phone": 0.7126398597584643,
+      "L3_P1": 0.2200965289601212,
+      "seconds": 56.1
+    },
+    {
+      "epoch": 8,
+      "loss": 0.03426421223716302,
+      "val": 0.9628390973998796,
+      "L2_phone": 0.718631407947675,
+      "L3_P1": 0.22904131885927975,
+      "seconds": 62.2
+    },
+    {
+      "epoch": 9,
+      "loss": 0.031159271943298254,
+      "val": 0.9709038889173349,
+      "L2_phone": 0.7048758525032632,
+      "L3_P1": 0.20682535479088338,
+      "seconds": 61.0
+    },
+    {
+      "epoch": 10,
+      "loss": 0.05423129444772547,
+      "val": 0.9077214440417121,
+      "L2_phone": 0.6375900460389241,
+      "L3_P1": 0.19882007126784126,
+      "seconds": 60.4
+    },
+    {
+      "epoch": 11,
+      "loss": 0.04425257556140423,
+      "val": 0.9595591160567826,
+      "L2_phone": 0.7139188867797523,
+      "L3_P1": 0.16576100680678946,
+      "seconds": 58.2
+    },
+    {
+      "epoch": 12,
+      "loss": 0.04049245672808452,
+      "val": 0.9587400712376707,
+      "L2_phone": 0.6602910456760183,
+      "L3_P1": 0.21897020958456467,
+      "seconds": 55.8
+    },
+    {
+      "epoch": 13,
+      "loss": 0.027017159048806538,
+      "val": 0.9475675971066193,
+      "L2_phone": 0.6924860934857413,
+      "L3_P1": 0.22243279681166245,
+      "seconds": 58.9
+    },
+    {
+      "epoch": 14,
+      "loss": 0.02341939183798703,
+      "val": 0.9502494984185741,
+      "L2_phone": 0.714134422054718,
+      "L3_P1": 0.24134221127841993,
+      "seconds": 57.2
+    }
+  ],
+  "best_epoch": 9,
+  "best_val": 0.9709038889173349,
+  "full_at_best": {
+    "L2_phone": 0.7048758525032632,
+    "L3_P1": 0.2067609080057603
+  },
+  "species_names": {
+    "กระพี้เขาควาย": {
+      "scientific": "Dalbergia cultrata",
+      "common_en": "Burmese blackwood"
+    },
+    "ขี้เหล็ก": {
+      "scientific": "Senna siamea",
+      "common_en": "Cassod tree"
+    },
+    "ชมพูพันธุ์ทิพย์": {
+      "scientific": "Tabebuia rosea",
+      "common_en": "Pink trumpet tree"
+    },
+    "ทรงบาดาล": {
+      "scientific": "Senna surattensis",
+      "common_en": "Scrambled egg tree, Glaucous cassia"
+    },
+    "ทองอุไร": {
+      "scientific": "Tecoma stans",
+      "common_en": "Yellow bells, Yellow elder"
+    },
+    "ประดู่ป่า": {
+      "scientific": "Pterocarpus macrocarpus",
+      "common_en": "Burmese rosewood"
+    },
+    "พะยอม": {
+      "scientific": "Anthoshorea roxburghii",
+      "common_en": "White meranti"
+    },
+    "พะยูง": {
+      "scientific": "Dalbergia cochinchinensis",
+      "common_en": "Siamese rosewood"
+    },
+    "พิลังกาสา": {
+      "scientific": "Ardisia polycephala",
+      "common_en": null
+    },
+    "มะเกลือ": {
+      "scientific": "Diospyros mollis",
+      "common_en": "Ebony"
+    },
+    "ยมหิน": {
+      "scientific": "Chukrasia tabularis",
+      "common_en": "Chittagong wood, Indian mahogany"
+    },
+    "ยางนา": {
+      "scientific": "Dipterocarpus alatus",
+      "common_en": "Yang"
+    },
+    "ราชพฤกษ์": {
+      "scientific": "Cassia fistula",
+      "common_en": "Golden shower"
+    },
+    "สาธร": {
+      "scientific": "Imbralyx leucanthus var. buteoides",
+      "common_en": null
+    },
+    "หูกระจง": {
+      "scientific": "Terminalia ivorensis",
+      "common_en": "Ivory Coast almond, Idigbo"
+    },
+    "อินทนิลน้ำ": {
+      "scientific": "Lagerstroemia speciosa",
+      "common_en": "Queen's crape myrtle, Pride of India"
+    },
+    "เหลืองปรีดียาธร": {
+      "scientific": "Tabebuia aurea",
+      "common_en": "Caribbean trumpet tree, Silver trumpet tree"
+    }
+  }
+}

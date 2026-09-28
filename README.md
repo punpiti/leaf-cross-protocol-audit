@@ -28,9 +28,15 @@ so the demo shows each step of the method but not a classification score.
 | `leafaudit/splits.py` | the grouped five-fold split, with seed 20260918 |
 | `leafaudit/evaluate.py` | grouped cross-validated logistic regression, the empirical null and the paired group bootstrap |
 | `demo.py` | runs the pipeline on `examples/` |
+| `results/` | the aggregate result files behind the tables and figures of the article |
 
 The functions in `leafaudit/` are those used for the article, with the same
 parameters and order of operations.
+
+Species in the result files are keyed by their Thai names, as recorded when the
+plants were collected. Each file that names species has a `species_names` block
+giving the accepted scientific name and, where one is in common use, the English
+common name.
 
 ## What the demo prints
 
@@ -44,4 +50,6 @@ parameters and order of operations.
 
 ## License
 
-The code is released under the MIT License (`LICENSE`).
+The code is released under the MIT License (`LICENSE`). The result files are
+released under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0).

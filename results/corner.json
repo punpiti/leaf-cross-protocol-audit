@@ -1,0 +1,68 @@
+{
+  "n_rows": 3484,
+  "n_kept": 3334,
+  "n_classes": 22,
+  "dropped_single_camera": [
+    "ประดู่ป่า",
+    "ยางนา"
+  ],
+  "patch_frac": 0.15,
+  "mean_corners": 3.3648414985590778,
+  "tiers": "core,leaf_low",
+  "result": {
+    "canon->canon": {
+      "macro_f1": 0.9811972721746154,
+      "sd": 0.008297673746621508,
+      "pooled_macro_f1": 0.9810360772777283,
+      "null_mean": 0.045571579256878915,
+      "null_hi": 0.06090959019277335,
+      "null_p": 0.0,
+      "n_pred_classes": 22,
+      "pred_max_share": 0.07906976744186046,
+      "n_units": 860
+    },
+    "phone->phone": {
+      "macro_f1": 0.9684768930291024,
+      "sd": 0.011979261501802636,
+      "pooled_macro_f1": 0.9695776690225817,
+      "null_mean": 0.04558510614569133,
+      "null_hi": 0.05941338247649639,
+      "null_p": 0.0,
+      "n_pred_classes": 22,
+      "pred_max_share": 0.07566938300349244,
+      "n_units": 859
+    },
+    "canon->phone": {
+      "macro_f1": 0.016376207484174933,
+      "sd": 0.0016063562244812775,
+      "pooled_macro_f1": 0.018525461339884287,
+      "null_mean": 0.0122125148827392,
+      "null_hi": 0.019456599733902524,
+      "null_p": 0.041,
+      "n_pred_classes": 9,
+      "pred_max_share": 0.7380675203725262,
+      "n_units": 859
+    },
+    "phone->canon": {
+      "macro_f1": 0.011610588727136278,
+      "sd": 0.011145426212889685,
+      "pooled_macro_f1": 0.016532786342118366,
+      "null_mean": 0.017338998963301613,
+      "null_hi": 0.025424747946669983,
+      "null_p": 0.5555,
+      "n_pred_classes": 12,
+      "pred_max_share": 0.42674418604651165,
+      "n_units": 860
+    }
+  },
+  "species_names": {
+    "ประดู่ป่า": {
+      "scientific": "Pterocarpus macrocarpus",
+      "common_en": "Burmese rosewood"
+    },
+    "ยางนา": {
+      "scientific": "Dipterocarpus alatus",
+      "common_en": "Yang"
+    }
+  }
+}
