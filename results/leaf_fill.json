@@ -1,0 +1,187 @@
+{
+  "summary": {
+    "n_species": 17,
+    "n_P3_larger": 15,
+    "median_diff": 0.0462799072265625,
+    "range_P1": [
+      0.1231842041015625,
+      0.36368560791015625
+    ],
+    "range_P3": [
+      0.1305389404296875,
+      0.41457366943359375
+    ]
+  },
+  "species": [
+    {
+      "scientific": "Anthoshorea roxburghii",
+      "common_en": "White meranti",
+      "thai": "พะยอม",
+      "n_P1": 150,
+      "n_P3": 116,
+      "median_P1": 0.22833251953125,
+      "median_P3": 0.25537872314453125,
+      "diff": 0.02704620361328125
+    },
+    {
+      "scientific": "Ardisia polycephala",
+      "common_en": null,
+      "thai": "พิลังกาสา",
+      "n_P1": 120,
+      "n_P3": 139,
+      "median_P1": 0.139739990234375,
+      "median_P3": 0.1601409912109375,
+      "diff": 0.0204010009765625
+    },
+    {
+      "scientific": "Cassia fistula",
+      "common_en": "Golden shower",
+      "thai": "ราชพฤกษ์",
+      "n_P1": 200,
+      "n_P3": 132,
+      "median_P1": 0.18782806396484375,
+      "median_P3": 0.24596405029296875,
+      "diff": 0.058135986328125
+    },
+    {
+      "scientific": "Chukrasia tabularis",
+      "common_en": "Chittagong wood, Indian mahogany",
+      "thai": "ยมหิน",
+      "n_P1": 200,
+      "n_P3": 158,
+      "median_P1": 0.23435211181640625,
+      "median_P3": 0.2787933349609375,
+      "diff": 0.04444122314453125
+    },
+    {
+      "scientific": "Dalbergia cochinchinensis",
+      "common_en": "Siamese rosewood",
+      "thai": "พะยูง",
+      "n_P1": 200,
+      "n_P3": 166,
+      "median_P1": 0.36368560791015625,
+      "median_P3": 0.41457366943359375,
+      "diff": 0.0508880615234375
+    },
+    {
+      "scientific": "Dalbergia cultrata",
+      "common_en": "Burmese blackwood",
+      "thai": "กระพี้เขาควาย",
+      "n_P1": 200,
+      "n_P3": 182,
+      "median_P1": 0.2303619384765625,
+      "median_P3": 0.3225250244140625,
+      "diff": 0.0921630859375
+    },
+    {
+      "scientific": "Diospyros mollis",
+      "common_en": "Ebony",
+      "thai": "มะเกลือ",
+      "n_P1": 200,
+      "n_P3": 76,
+      "median_P1": 0.1985015869140625,
+      "median_P3": 0.17848968505859375,
+      "diff": -0.02001190185546875
+    },
+    {
+      "scientific": "Dipterocarpus alatus",
+      "common_en": "Yang",
+      "thai": "ยางนา",
+      "n_P1": 130,
+      "n_P3": 76,
+      "median_P1": 0.1619873046875,
+      "median_P3": 0.25965118408203125,
+      "diff": 0.09766387939453125
+    },
+    {
+      "scientific": "Imbralyx leucanthus var. buteoides",
+      "common_en": "Sathon",
+      "thai": "สาธร",
+      "n_P1": 200,
+      "n_P3": 144,
+      "median_P1": 0.21872711181640625,
+      "median_P3": 0.2653961181640625,
+      "diff": 0.04666900634765625
+    },
+    {
+      "scientific": "Lagerstroemia speciosa",
+      "common_en": "Queen's crape myrtle, Pride of India",
+      "thai": "อินทนิลน้ำ",
+      "n_P1": 150,
+      "n_P3": 137,
+      "median_P1": 0.1822052001953125,
+      "median_P3": 0.228485107421875,
+      "diff": 0.0462799072265625
+    },
+    {
+      "scientific": "Pterocarpus macrocarpus",
+      "common_en": "Burmese rosewood",
+      "thai": "ประดู่ป่า",
+      "n_P1": 200,
+      "n_P3": 62,
+      "median_P1": 0.26387786865234375,
+      "median_P3": 0.3993682861328125,
+      "diff": 0.13549041748046875
+    },
+    {
+      "scientific": "Senna siamea",
+      "common_en": "Cassod tree",
+      "thai": "ขี้เหล็ก",
+      "n_P1": 200,
+      "n_P3": 202,
+      "median_P1": 0.1576080322265625,
+      "median_P3": 0.151641845703125,
+      "diff": -0.0059661865234375
+    },
+    {
+      "scientific": "Senna surattensis",
+      "common_en": "Scrambled egg tree, Glaucous cassia",
+      "thai": "ทรงบาดาล",
+      "n_P1": 200,
+      "n_P3": 156,
+      "median_P1": 0.21484375,
+      "median_P3": 0.28610992431640625,
+      "diff": 0.07126617431640625
+    },
+    {
+      "scientific": "Tabebuia aurea",
+      "common_en": "Caribbean trumpet tree, Silver trumpet tree",
+      "thai": "เหลืองปรีดียาธร",
+      "n_P1": 160,
+      "n_P3": 131,
+      "median_P1": 0.1231842041015625,
+      "median_P3": 0.1305389404296875,
+      "diff": 0.007354736328125
+    },
+    {
+      "scientific": "Tabebuia rosea",
+      "common_en": "Pink trumpet tree",
+      "thai": "ชมพูพันธุ์ทิพย์",
+      "n_P1": 200,
+      "n_P3": 267,
+      "median_P1": 0.17334747314453125,
+      "median_P3": 0.2257537841796875,
+      "diff": 0.05240631103515625
+    },
+    {
+      "scientific": "Tecoma stans",
+      "common_en": "Yellow bells, Yellow elder",
+      "thai": "ทองอุไร",
+      "n_P1": 200,
+      "n_P3": 138,
+      "median_P1": 0.14492034912109375,
+      "median_P3": 0.187530517578125,
+      "diff": 0.04261016845703125
+    },
+    {
+      "scientific": "Terminalia ivorensis",
+      "common_en": "Ivory Coast almond, Idigbo",
+      "thai": "หูกระจง",
+      "n_P1": 200,
+      "n_P3": 153,
+      "median_P1": 0.19028472900390625,
+      "median_P3": 0.21075439453125,
+      "diff": 0.02046966552734375
+    }
+  ]
+}

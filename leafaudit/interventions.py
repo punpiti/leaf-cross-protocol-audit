@@ -11,8 +11,7 @@ from torchvision import models
 MEAN = [0.485, 0.456, 0.406]
 STD = [0.229, 0.224, 0.225]
 
-CROP_MODES = {"crop", "crop_mask", "crop_noise", "crop_swap", "crop_occ",
-              "crop_leafout", "silhouette", "leafout_swap"}
+CROP_MODES = {"crop", "crop_swap", "crop_occ", "crop_leafout", "silhouette"}
 
 
 def leaf_mask_small(a8):
@@ -82,21 +81,15 @@ def to_tensor(path, mode, donor=None, seed=0):
                         np.zeros(a.shape[:2], np.uint8))[..., None], 3, 2)
              .astype(np.float32))
 
-    elif mode in ("crop_leafout", "leafout_swap"):
+    elif mode == "crop_leafout":
         m = load_mask(path)
         if m is not None:
-            if mode == "leafout_swap" and donor is not None:
-                a = bg_patch(donor)
             a = np.where(m[..., None] > 0, np.float32(0.5), a)
 
-    elif mode in ("crop_mask", "crop_noise", "crop_swap"):
+    elif mode == "crop_swap":
         m = load_mask(path)
         if m is not None:
-            fill = (np.float32(0.5) if mode == "crop_mask"
-                    else rng.random(a.shape).astype(np.float32)
-                    if mode == "crop_noise"
-                    else bg_patch(donor) if donor is not None
-                    else np.float32(0.5))
+            fill = bg_patch(donor) if donor is not None else np.float32(0.5)
             a = np.where(m[..., None] > 0, a, fill)
 
     elif mode == "crop_occ":
