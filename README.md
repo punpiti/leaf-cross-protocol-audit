@@ -30,7 +30,7 @@ so the demo shows each step of the method but not a classification score.
 | `results/` | the aggregate result files behind the tables and figures of the article |
 
 The functions in `leafaudit/` are those used for the article, with the same
-parameters and order of operations. This record was built from commit `1d89f80` of the working repository, where the same package sits at
+parameters and order of operations. This record was built from commit `fc5e79d` of the working repository, where the same package sits at
 `scripts/leafaudit/` and the result files at `labels-dataset2/`.
 
 Species in the result files are given by three names: the accepted scientific
@@ -41,7 +41,7 @@ recorded when the plants were collected.
 
 1. the leaf fraction of each crop after segmentation (Section 2.5);
 2. which image corners are used by the corner condition (Section 2.6);
-3. for each input condition of Sections 2.6 and 3.7, the cosine similarity of
+3. for each input condition of Sections 2.6 and 3.6, the cosine similarity of
    its ResNet-18 features to those of the unmodified crop, a check for this
    demo only;
 4. the grouped fold assignment (Section 2.4).

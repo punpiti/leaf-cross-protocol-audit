@@ -5,8 +5,8 @@ type: software
 license: MIT
 authors:
   - family-names: "Piamsa-nga"
-    given-names: "Napaporn"
-    affiliation: "Department of Water Resources Engineering, Kasetsart University, Bangkok, Thailand"
+    given-names: "Punpiti"
+    affiliation: "Department of Computer Engineering, Kasetsart University, Bangkok, Thailand"
   - family-names: "Apichanapong"
     given-names: "Noranand"
     affiliation: "Department of Computer Engineering, Kasetsart University, Bangkok, Thailand"
@@ -17,8 +17,8 @@ authors:
     given-names: "Phantat"
     affiliation: "Department of Mechanical Engineering, Kasetsart University, Bangkok, Thailand"
   - family-names: "Piamsa-nga"
-    given-names: "Punpiti"
-    affiliation: "Department of Computer Engineering, Kasetsart University, Bangkok, Thailand"
+    given-names: "Napaporn"
+    affiliation: "Department of Water Resources Engineering, Kasetsart University, Bangkok, Thailand"
 keywords:
   - species identification
   - shortcut learning
