@@ -28,6 +28,7 @@ so the demo shows each step of the method but not a classification score.
 | `leafaudit/evaluate.py` | grouped cross-validated logistic regression, the empirical null and the paired group bootstrap |
 | `demo.py` | runs the pipeline on `examples/` |
 | `results/` | the aggregate result files behind the tables and figures of the article |
+| `results/eval_counts/` | image and evaluation-unit counts of every evaluation set, by species and fold, and of the fine-tuning splits; no image names. `eval_sets_summary.csv` gives the totals reported in Section 2.4. P1 units are single images, because P1 has no leaf identity |
 
 The functions in `leafaudit/` are those used for the article, with the same
 parameters and order of operations. This record was built from commit `fc5e79d` of the working repository, where the same package sits at

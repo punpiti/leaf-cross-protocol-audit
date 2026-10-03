@@ -1,0 +1,7 @@
+set,protocol,camera,unit,species,images,units
+crosscam_22,P3,Canon EOS R5,leaf x camera,22,1682,860
+crosscam_22,P3,ELS-NX9 (phone),leaf x camera,22,1653,863
+crossprotocol_17,P1,Lumix GX8,image,17,3110,3110
+crossprotocol_17,P3,Canon EOS R5 + ELS-NX9 (pooled),leaf,14,2041,560
+crossprotocol_17,P3,Canon EOS R5 + ELS-NX9 (pooled),single image,10,394,394
+main_24,P3,Canon EOS R5 + ELS-NX9 (pooled),leaf,24,3471,938
