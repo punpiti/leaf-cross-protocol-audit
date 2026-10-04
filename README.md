@@ -38,6 +38,17 @@ Species in the result files are given by three names: the accepted scientific
 name, the English common name where one is in common use, and the Thai name
 recorded when the plants were collected.
 
+## Fine-tuning result files
+
+Three kinds of score are stored for each fine-tuning run in `results/finetune/`;
+only the first two are reported in the article.
+
+| Where | What it scores | Used for |
+|---|---|---|
+| `interventions.json` | per-image macro-F1 of the selected checkpoint on the full cross-protocol test set, for each input condition; runs trained on P3 are scored on the 15 species recorded by the P3 Canon camera | Table 4 (mean and range of the three replicates) |
+| `history` in each `<run>.json` | validation and cross-protocol macro-F1 at every epoch, per image on a fixed 800-image subsample | Figure 4 |
+| `full_at_best` in each `<run>.json`, and `summary.json` | the score logged by the training script at the selected checkpoint, before the evaluation was restricted to the species each model was trained on | not used; kept as the training log |
+
 ## What the demo prints
 
 1. the leaf fraction of each crop after segmentation (Section 2.5);
